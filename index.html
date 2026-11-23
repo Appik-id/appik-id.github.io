@@ -2,9 +2,58 @@
 <html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100f16"><meta name="description" content="APPIK Software House: aplikasi, produk digital, dan jasa pengembangan software custom."><title>APPIK Software House — Aplikasi & Solusi Digital</title>
 <style>
 :root{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#f4f2f8;background:#100f16;color-scheme:dark}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit}.wrap{max-width:780px;margin:auto;padding:18px 18px 80px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}.brand{font-size:24px;font-weight:900;letter-spacing:-1px}.brand b{color:#b5a3ff}.subtitle{font-size:10px;color:#aaa7b7;letter-spacing:2px;font-weight:700}.nav{color:#cbc5d9;text-decoration:none;font-size:13px}.hero{padding:45px 4px 33px;text-align:center}.hero .eyebrow{font-size:12px;letter-spacing:1.8px;color:#b6a0ff;font-weight:800}.hero h1{font-size:clamp(28px,6vw,47px);line-height:1.17;margin:15px 0}.hero p{max-width:550px;margin:0 auto;color:#b9b5c3;line-height:1.65}.hero-actions{margin-top:22px;display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.btn{background:#8a6ff0;border:1px solid #8a6ff0;color:white;border-radius:12px;padding:12px 16px;font-weight:700;font-size:13px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px}.btn.alt{background:#24202f;border-color:#423a54}.btn:disabled{opacity:.48;cursor:not-allowed}.section-head{display:flex;justify-content:space-between;align-items:center;margin:28px 0 14px}.section-head h2{font-size:21px;margin:0}.muted{color:#a9a5b6}.small{font-size:12px}.filters{display:grid;grid-template-columns:1fr 1fr;gap:10px}.filters input{grid-column:1/-1}.filters input,.filters select,.form input,.form textarea,.form select{width:100%;border-radius:11px;border:1px solid #37313f;background:#1d1a25;color:#f8f7fc;padding:13px;outline:none}.filters input:focus,.form input:focus,.form textarea:focus,.form select:focus{border-color:#a58aff}.list{margin-top:18px}.app{border-bottom:1px solid #302b38}.app-head{width:100%;display:flex;align-items:center;text-align:left;gap:13px;padding:15px 7px;border:0;background:transparent;color:inherit}.app-head:hover,.app.open .app-head{background:#1d1a24;border-radius:13px}.app-icon{width:48px;height:48px;border-radius:12px;background:#2b253b;display:grid;place-items:center;font-size:23px;flex:none}.app-name{font-weight:750;font-size:16px}.app-meta{color:#aaa5b7;font-size:12px;margin-top:5px}.app-text{flex:1;min-width:0}.arrow{color:#c1b9d1;font-size:18px;transition:transform .2s}.app.open .arrow{transform:rotate(180deg)}.details{padding:6px 15px 20px 68px;line-height:1.65;color:#d4d0df;font-size:14px}.details p{margin:5px 0 12px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 13px}.tag{font-size:11px;border-radius:20px;border:1px solid #4c4458;color:#ddd6ee;padding:5px 9px}.tag.free{color:#93e0b8;border-color:#355f49}.tag.preorder{color:#edce96;border-color:#80643b}.detail-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}.empty{padding:30px;text-align:center;color:#aaa5b6}.info{margin:34px 0;border:1px solid #3d354d;border-radius:16px;padding:21px;background:#1b1725}.info h2{margin:0 0 10px;font-size:20px}.info p{color:#bcb7c9;line-height:1.65;margin:0 0 14px}.footer{padding-top:24px;border-top:1px solid #302b38;color:#9b96aa;text-align:center;font-size:12px}.modal-back{position:fixed;inset:0;background:#000b;display:none;place-items:center;padding:16px;z-index:5}.modal-back.show{display:grid}.modal{background:#1c1825;border:1px solid #514664;border-radius:16px;padding:22px;width:min(100%,550px);max-height:90vh;overflow:auto}.modal-top{display:flex;align-items:center;justify-content:space-between}.modal h2{margin:0 0 8px;font-size:21px}.close{border:0;background:#352d45;color:white;border-radius:9px;padding:8px 11px}.form{display:grid;gap:12px;margin-top:16px}.form label{display:grid;gap:6px;color:#d5cde4;font-size:13px}.form textarea{resize:vertical;min-height:90px}.notice{font-size:12px;color:#b0a9c1;line-height:1.55}.feedback{color:#aee6c2;font-size:13px;min-height:17px}@media(max-width:460px){.wrap{padding:12px 13px 65px}.hero{padding:33px 1px 20px}.app-head{gap:10px}.app-icon{width:42px;height:42px}.details{padding-left:12px}.btn{padding:11px 12px}}
-</style></head><body><main class="wrap"><header class="top"><div><div class="brand">APPIK<b>.</b></div><div class="subtitle">SOFTWARE HOUSE</div></div><a class="nav" href="#tentang">Tentang Kami</a></header>
+
+/* APPIK OnePage-style UI: centered brand and unified launcher panel */
+:root{background:#0b090e;color:#edeaf1}
+.wrap{max-width:740px;padding:22px 14px 75px}
+.launcher-panel{background:#17131b;border-radius:28px;padding:24px 25px 28px;box-shadow:0 8px 35px #0002}
+.top{display:flex;justify-content:center;padding:8px 0 0;text-align:center}
+.brand{font-size:34px;letter-spacing:-1.2px;line-height:1.15}
+.subtitle{font-size:13px;letter-spacing:1.1px;font-weight:450;color:#c8c0cb;margin-top:6px}
+.nav{display:none}
+.hero{padding:18px 0 16px;text-align:center}
+.hero .eyebrow{display:none}
+.hero h1{display:none}
+.hero p{font-size:16px;line-height:1.55;color:#d0c9d4;max-width:480px}
+.hero-actions{margin-top:16px;gap:9px}
+.hero-actions .btn{background:#30283b;border-color:#51465e;font-weight:600}
+.hero-actions .btn.alt{background:#30283b}
+.section-head{margin:22px 4px 13px}
+.section-head h2{font-size:18px;font-weight:680}
+.filters{margin:0 4px 14px}
+.filters input,.filters select{background:#211c28;border-color:#352d3f}
+.app{border-bottom:none;margin:0}
+.app-head{padding:16px 9px;gap:15px;border-radius:12px;min-height:75px}
+.app-head:hover,.app.open .app-head{background:#241e2a}
+.app-icon{width:39px;height:39px;border-radius:10px;background:transparent;font-size:25px;filter:grayscale(1) brightness(0) invert(.88);opacity:.9}
+.app-name{font-size:18px;font-weight:660;line-height:1.3;display:block}
+.app-meta{font-size:12px;line-height:1.45;display:block;margin-top:5px;color:#aaa3b2;white-space:normal}
+.arrow{font-size:24px;line-height:1;color:#cfc6d5;display:block;padding:0 3px}
+.details{background:#211b27;border-radius:14px;margin:0 5px 12px;padding:16px 18px 19px;line-height:1.65}
+.details p{margin:0 0 12px}
+.details ul{padding-left:20px}
+.tag{background:#292232}
+.info{background:#17131b;border-color:#28212f;border-radius:26px;margin-top:22px;box-shadow:none}
+.info .btn{background:#7460d1}
+.footer{border:0}
+@media(max-width:460px){
+.wrap{padding:14px 12px 65px}
+.launcher-panel{padding:23px 15px 23px;border-radius:25px}
+.brand{font-size:33px}
+.subtitle{font-size:12px}
+.hero p{font-size:15px}
+.section-head{margin:22px 7px 13px}
+.filters{margin:0 2px 13px}
+.app-head{padding:15px 5px;gap:13px}
+.app-name{font-size:17px}
+.app-icon{width:35px;height:35px;font-size:23px}
+.app-meta{font-size:11px}
+.details{margin:0 0 11px;padding:14px}
+.info{padding:23px 19px}
+}
+</style></head><body><main class="wrap"><div class="launcher-panel"><header class="top"><div><div class="brand">APPIK<b>.</b></div><div class="subtitle">SOFTWARE HOUSE</div></div><a class="nav" href="#tentang">Tentang Kami</a></header>
 <section class="hero"><div class="eyebrow">KARYA • INOVASI • SOLUSI DIGITAL</div><h1>Aplikasi untuk<br>kebutuhan nyata.</h1><p>Jelajahi karya APPIK, gunakan aplikasi gratis, lakukan pre-order produk, atau konsultasikan pembuatan software sesuai kebutuhanmu.</p><div class="hero-actions"><a class="btn" href="#katalog">Jelajahi Aplikasi ↓</a><button class="btn alt" id="requestCustom">Buat Aplikasi Custom</button></div></section>
-<section id="katalog"><div class="section-head"><h2>Katalog Aplikasi</h2><span class="muted small" id="count"></span></div><div class="filters"><input id="search" type="search" placeholder="Cari aplikasi atau fungsinya..." aria-label="Cari aplikasi"><select id="category" aria-label="Filter kategori"><option value="all">Semua kategori</option></select><select id="sort" aria-label="Urutkan aplikasi"><option value="featured">Urutan unggulan</option><option value="az">Nama A–Z</option><option value="za">Nama Z–A</option></select></div><div id="list" class="list"></div></section>
+<section id="katalog"><div class="section-head"><h2>Katalog Aplikasi</h2><span class="muted small" id="count"></span></div><div class="filters"><input id="search" type="search" placeholder="Cari aplikasi atau fungsinya..." aria-label="Cari aplikasi"><select id="category" aria-label="Filter kategori"><option value="all">Semua kategori</option></select><select id="sort" aria-label="Urutkan aplikasi"><option value="featured">Urutan unggulan</option><option value="az">Nama A–Z</option><option value="za">Nama Z–A</option></select></div><div id="list" class="list"></div></section></div>
 <section id="tentang" class="info"><h2>Butuh aplikasi yang serupa?</h2><p>Setiap usaha dan organisasi punya kebutuhan berbeda. APPIK menerima konsultasi pengembangan aplikasi Android, web, dan solusi digital custom, termasuk ide yang terinspirasi dari portofolio kami.</p><button class="btn" id="contactBtn">Konsultasikan Kebutuhanmu</button></section>
 <footer class="footer">© <span id="year"></span> APPIK Software House · Dibuat untuk kebutuhan nyata.</footer></main>
 <div class="modal-back" id="modalBack" role="presentation"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-top"><h2 id="modalTitle">Permintaan Aplikasi</h2><button class="close" id="closeModal" aria-label="Tutup">✕</button></div><p class="notice" id="modalIntro"></p><form id="requestForm" class="form"><label>Jenis permintaan<select id="requestType"><option value="Konsultasi aplikasi custom">Konsultasi aplikasi custom</option><option value="Pre-order Kasire">Pre-order Kasire</option><option value="Pembuatan aplikasi serupa">Pembuatan aplikasi serupa</option></select></label><label>Referensi aplikasi<input id="appRef" required maxlength="80"></label><label>Nama pemesan<input id="customer" required maxlength="80" placeholder="Nama Anda"></label><label>Kontak WhatsApp<input id="phone" required maxlength="30" placeholder="08xxxxxxxxxx"></label><label>Kebutuhan atau fitur yang diinginkan<textarea id="needs" required maxlength="1500" placeholder="Ceritakan kebutuhan aplikasi..."></textarea></label><button class="btn" type="submit">Salin Pesan Permintaan</button><div class="feedback" id="feedback" role="status"></div><div class="notice">Formulir ini belum mengirim data otomatis. Pesan disalin agar dapat dikirim ke kontak APPIK setelah nomor bisnis resmi ditetapkan.</div></form></div></div>
