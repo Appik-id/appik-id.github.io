@@ -1,0 +1,3 @@
+Tes koneksi ChatGPT ke GitHub Organization Appik-id.
+Tanggal: 23 November 2026.
+Jika file ini terlihat di repository, akses tulis berhasil.
